@@ -40,7 +40,7 @@
         height: 300px;
       }
       body {
-        background: rgb(90, 90, 90);
+        background: rgb(12, 12, 12);
       }
       .shadow {
         box-shadow: 1px 50px 0px 15px rgb(99, 98, 98) ;
@@ -48,7 +48,7 @@
       .bor {
         border-width:10px ;
         border-style: dashed;
-        border-color: rgb(174, 174, 174);
+        border-color: rgb(255, 255, 255);
         border-left-style: solid;
         border-right-style: solid;
         border-left-width: 30px
@@ -56,11 +56,11 @@
       }
       button:focus,
       input:focus {
-        outline: 4px solid rgb(0, 0, 0);
+        outline: 4px solid rgb(245, 189, 18);
       }
     </style>
   </head>
-  <body>
+  <body style="font-family:Cambria;">
     <div>
       <img class="bor"
         src="Tomashpil.jpg"
@@ -68,54 +68,58 @@
         align="right"
         vspace="10px"
         hspace="100px"
-        style="box-shadow:-30px 0px 50px grey ;"
-      />
+        style="box-shadow:inset -10px 0px 5px #d71499,
+        inset 0px 10px 5px rgb(59, 255, 212);"/>
     </div>
-    <div class="mx-4 mt-5 sizeofblock rightpic">
-      <h1 class="color" style="text-shadow: -20px 0px 0px black;">Tomashpil</h1>
+    <div class="mx-4 mt-5 sizeofblock rightpic" style="box-shadow: inset 0px 0px 5px rgb(120, 168, 252), inset 0px 0px 10px rgb(86, 252, 150) ;">
+      <h1 class="color" style="text-shadow: 20px 20px 0px black; font-weight: 700; font-size: 40px;">Tomashpil</h1>
       <h3 class="color fw-light" style = margin-left:30px>
-        City of Ukraine on Vinnitsa district histoty The area around Tomashpol
-        is very interestingb. Nearby, archaeologists discovered important
-        remains of the Tryplian culture (approx. 3000 BC), traces of ancient
-        Greek and Roman cultures (from the 4th century BC) were also found. The
-        first written mention of Tomashpil dates back to 1616, and even to 1459
-        - under the initial name: Dragushov.
+      <em> of Ukraine on Vinnitsa district histoty The area around Tomashpol
+      is very interestingb. Nearby, archaeologists discovered important
+      remains of the Tryplian culture (approx. 3000 BC), traces of ancient
+      Greek and Roman cultures (from the 4th century BC) were also found. The
+      first written mention of Tomashpil dates back to 1616, and even to 1459
+      - under the initial name: Dragushov.
+      </em>
+          
       </h3>
     </div>
     <br />
     <hr width="90%" size="5px" color="white" />
       <div class="type rightpic">
         <img
-        style="box-shadow:inset 0px 0px 100px rgb(243, 246, 158),
-         inset 0px 10px 100px blue;"
+        style="box-shadow:inset 0px 0px 5px #d71499,
+         inset 0px 3px 5px rgb(59, 255, 212);"
           src="Tomashpil_prapor.png"
           alt="Flag"
           align="left"
           vspace="10px"
           hspace="90px"
         />
-      <div class="mx-4">
-        <h1 class=color style="text-shadow: -15px -0px 0px rgb(52, 52, 52)">History</h1>
-        <h3 class="fw-light color" style = margin-left:30px>
-          According to historical documents, in 1580 the lands located along the
-          Murafi, Busha, Rusava, Yalanka, and Markivka rivers fell into the
-          possession of the Polish magnate Jan Zamoyski (1541-1605). Crown
-          Chancellor, who in the following years began to strengthen the region,
-          build fortresses and castles in Shargorod, Yampol, Stina (Yangorod),
-          Komargorod. Jan Zamoysky's possessions included the Dragushov lands
-          and the Dragushov hillfort. In the first years of the 17th century,
-          Jan Zamoyski gave his son Tomasz a manor and land along the Rusava
-          River and its tributaries. In 1616, Tomasz Zamoyskyi began to complete
-          the construction of a castle on the wasteland of the village of
-          Prokopintsi, opposite Lake Biele. Tomashpil was first mentioned in
-          1616. The Polish scientist O. V. Yablonovsky in his works "Historical
-          Sources" writes that the Poles, after the union of 1569, renamed many
-          so-called "Wastelands", or settlements in the Braslav region. It is
-          written about Tomashpil that it used to be called Dragushov.
+      <div class="mx-4" >
+        <h1 class=color style="text-shadow: 20px 20px 0px rgb(52, 52, 52); font-size: 40px; font-weight: 700;">History</h1>
+        <h3 class="fw-light color" style = "margin-left:30px; font-size: 40px;" >
+          <em>
+            According to historical documents, in 1580 the lands located along the
+            Murafi, Busha, Rusava, Yalanka, and Markivka rivers fell into the
+            possession of the Polish magnate Jan Zamoyski (1541-1605). Crown
+            Chancellor, who in the following years began to strengthen the region,
+            build fortresses and castles in Shargorod, Yampol, Stina (Yangorod),
+            Komargorod. Jan Zamoysky's possessions included the Dragushov lands
+            and the Dragushov hillfort. In the first years of the 17th century,
+            Jan Zamoyski gave his son Tomasz a manor and land along the Rusava
+            River and its tributaries. In 1616, Tomasz Zamoyskyi began to complete
+            the construction of a castle on the wasteland of the village of
+            Prokopintsi, opposite Lake Biele. Tomashpil was first mentioned in
+            1616. The Polish scientist O. V. Yablonovsky in his works "Historical
+            Sources" writes that the Poles, after the union of 1569, renamed many
+            so-called "Wastelands", or settlements in the Braslav region. It is
+            written about Tomashpil that it used to be called Dragushov.
+          </em>
         </h3>
       </div>
       <hr width="70%" size="5px" color="white" />
-      <button class="btn btn-dark" style="margin-left:30px;"> BUTTON</button>
+      <button style="margin-left:50px;"> BUTTON</button>
       <input type="text">
     </body>
 </html>
